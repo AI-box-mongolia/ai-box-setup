@@ -1,31 +1,46 @@
-# AI Box: серверийн суулгагч
+# AI Box: server installer
 
-AI Box-ийн төв серверийг (PC-A) Windows компьютер дээр суулгах файл.
+The installer for the AI Box server (the computer we call PC-A) on Windows, and short videos that walk through
+setting it up and using it.
 
-**Татах:** [AIBox-HeadNode-Setup-Wizard.exe](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest/download/AIBox-HeadNode-Setup-Wizard.exe)
-(хамгийн сүүлийн хувилбар: [Releases](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest)).
+Монгол хэлээр: [README.mn.md](README.mn.md)
 
-**Шаардлага:** Windows 10 22H2 эсвэл 11, 8 GB санах ой, 10 GB сул зай, интернет, администраторын эрх. Сервер
-болох компьютер асаалттай, цахилгаанд залгаатай байна.
+## Download
 
-1. Файлыг давхар дарна. «Windows protected your PC» гарвал **More info → Run anyway** (суулгагч гарын үсэггүй),
-   «Allow changes?» → **Yes**.
-2. Хэлээ сонгоод алхмуудыг дагана: 10–20 минут, нэг удаа дахин асааж магадгүй.
-3. Сүүлийн хуудсанд гарах вэб хаяг, нууц үгсийг хадгална: дахин харагдахгүй.
-4. Ажилтны компьютерт: суулгагч `C:\AIBox\AIBox-Agent-Setup.exe`-г үүсгэнэ. Үүнийг компьютер бүр дээр хуулж
-   ажиллуулна. Энэ файл таны серверт нэвтрэх түлхүүртэй тул нийтэд бүү тарааж байгаарай.
+- **Installer:** [AIBox-HeadNode-Setup-Wizard.exe](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest/download/AIBox-HeadNode-Setup-Wizard.exe), the latest release. Every
+  file is on the [Releases](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest) page.
+- **Guide videos** (captions in Mongolian):
+  1. [Setting up the server](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest/download/AI-Box-guide-1-server-setup.mp4) (3:29)
+  2. [Installing on an employee's computer, and sharing a file](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest/download/AI-Box-guide-2-employee-computer.mp4) (3:08)
+  3. [What to do when Windows warns](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest/download/AI-Box-guide-3-windows-warnings.mp4) (2:47)
+  4. [Using the AI Box web page](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest/download/AI-Box-guide-4-web-page.mp4) (3:47)
 
-**Файлыг шалгах:** PowerShell дээр `Get-FileHash .\AIBox-HeadNode-Setup-Wizard.exe`: гарсан Hash нь release-ийн
-тэмдэглэл дэх SHA-256-тай яг ижил байх ёстой.
+## What the server computer needs
 
-**Docker Desktop:** сервер Docker Desktop дээр ажиллана. 250-аас олон ажилтантай, эсвэл жилийн орлого нь $10M-аас
-дээш байгууллагад Docker-ийн төлбөртэй захиалга хэрэгтэй.
+Windows 10 22H2 or Windows 11, 8 GB of memory, 10 GB of free disk space, an internet connection, and an
+administrator account. Keep it switched on and plugged in: the other computers reach AI Box through it.
 
----
+## Install
 
-**English.** The installer for the AI Box server (PC-A) on Windows. Download the latest release and run it
-(*More info → Run anyway*: it is not signed; then *Yes*), follow the wizard (10–20 minutes), and keep the address and
-passwords its last page shows. It creates `C:\AIBox\AIBox-Agent-Setup.exe` for the employees' computers: it carries a
-key to your server, so do not share it publicly. Needs Windows 10 22H2 or 11, 8 GB of memory, 10 GB free, internet
-and an administrator. Check the download with `Get-FileHash`: the SHA-256 is in the release notes. The server runs
-on Docker Desktop, whose terms ask organizations above 250 employees or $10M a year for a paid subscription.
+1. Double-click the installer. If Windows shows *Windows protected your PC*, choose **More info → Run anyway**: the
+   installer is not signed. When Windows asks whether to allow changes, choose **Yes**.
+2. Choose the language (English, or Mongolian) and follow the steps. It takes 10 to 20 minutes, and the computer may
+   restart once.
+3. Save the web address and the passwords the last page shows: they are not shown again.
+4. For the employees' computers, setup creates `C:\AIBox\AIBox-Agent-Setup.exe`. Copy it to each computer and run it
+   there. It carries a key to your server, so do not share it publicly.
+
+## Check the download
+
+In PowerShell, in the folder that holds the file:
+
+```powershell
+Get-FileHash .\AIBox-HeadNode-Setup-Wizard.exe
+```
+
+The *Hash* it prints must be exactly the SHA-256 in the release notes.
+
+## Docker Desktop
+
+The server runs on Docker Desktop. Docker's terms require a paid subscription for organizations with more than 250
+employees or more than USD 10 million in annual revenue.
