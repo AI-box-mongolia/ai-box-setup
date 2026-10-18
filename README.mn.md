@@ -9,11 +9,11 @@ English: [README.md](README.md)
 
 - **Суулгагч:** [AIBox-HeadNode-Setup-Wizard.exe](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest/download/AIBox-HeadNode-Setup-Wizard.exe), хамгийн сүүлийн хувилбар.
   Бүх файл [Releases](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest) хуудсанд байна.
-- **Заавар видео:**
-  1. [Сервер суулгах](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest/download/AI-Box-guide-1-server-setup.mp4) (3:29)
-  2. [Ажилтны компьютерт суулгах, файл хуваалцах](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest/download/AI-Box-guide-2-employee-computer.mp4) (3:08)
-  3. [Windows анхааруулбал](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest/download/AI-Box-guide-3-windows-warnings.mp4) (2:47)
-  4. [AI Box вэб хуудсыг ашиглах](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest/download/AI-Box-guide-4-web-page.mp4) (3:47)
+- **Заавар видео:** [videos](videos) хавтсанд, мөн Releases хуудсанд:
+  1. [Сервер суулгах](videos/AI-Box-guide-1-server-setup.mp4) (3:29)
+  2. [Ажилтны компьютерт суулгах, файл хуваалцах](videos/AI-Box-guide-2-employee-computer.mp4) (3:08)
+  3. [Windows анхааруулбал](videos/AI-Box-guide-3-windows-warnings.mp4) (2:47)
+  4. [AI Box вэб хуудсыг ашиглах](videos/AI-Box-guide-4-web-page.mp4) (3:47)
 
 ## Сервер болох компьютерт хэрэгтэй
 
