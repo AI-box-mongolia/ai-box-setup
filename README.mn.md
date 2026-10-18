@@ -10,6 +10,7 @@ English: [README.md](README.md)
 - **Суулгагч:** [AIBox-HeadNode-Setup-Wizard.exe](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest/download/AIBox-HeadNode-Setup-Wizard.exe), хамгийн сүүлийн хувилбар.
   Бүх файл [Releases](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest) хуудсанд байна.
 - **Заавар видео:** [videos](videos) хавтсанд, мөн Releases хуудсанд:
+  0. [GitHub-аас файл татах](videos/AI-Box-guide-0-download-from-github.mp4) (2:17)
   1. [Сервер суулгах](videos/AI-Box-guide-1-server-setup.mp4) (3:29)
   2. [Ажилтны компьютерт суулгах, файл хуваалцах](videos/AI-Box-guide-2-employee-computer.mp4) (3:08)
   3. [Windows анхааруулбал](videos/AI-Box-guide-3-windows-warnings.mp4) (2:47)

@@ -10,6 +10,7 @@ setting it up and using it.
 - **Installer:** [AIBox-HeadNode-Setup-Wizard.exe](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest/download/AIBox-HeadNode-Setup-Wizard.exe), the latest release. Every
   file is on the [Releases](https://github.com/AI-box-mongolia/ai-box-setup/releases/latest) page.
 - **Guide videos** (captions in Mongolian), in the [videos](videos) folder and on the Releases page:
+  0. [Downloading the files from GitHub](videos/AI-Box-guide-0-download-from-github.mp4) (2:17)
   1. [Setting up the server](videos/AI-Box-guide-1-server-setup.mp4) (3:29)
   2. [Installing on an employee's computer, and sharing a file](videos/AI-Box-guide-2-employee-computer.mp4) (3:08)
   3. [What to do when Windows warns](videos/AI-Box-guide-3-windows-warnings.mp4) (2:47)
