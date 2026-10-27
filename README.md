@@ -15,6 +15,7 @@ setting it up and using it.
   2. [Installing on an employee's computer, and sharing a file](videos/AI-Box-guide-2-employee-computer.mp4) (3:08)
   3. [What to do when Windows warns](videos/AI-Box-guide-3-windows-warnings.mp4) (2:47)
   4. [Using the AI Box web page](videos/AI-Box-guide-4-web-page.mp4) (3:47)
+  5. [Setting up the Telegram bot (optional)](videos/AI-Box-guide-5-telegram.mp4) (2:12)
 
 ## What the server computer needs
 
@@ -27,8 +28,12 @@ administrator account. Keep it switched on and plugged in: the other computers r
    installer is not signed. When Windows asks whether to allow changes, choose **Yes**.
 2. Choose the language (English, or Mongolian) and follow the steps. It takes 10 to 20 minutes, and the computer may
    restart once.
-3. Save the web address and the passwords the last page shows: they are not shown again.
-4. For the employees' computers, setup creates `C:\AIBox\AIBox-Agent-Setup.exe`. Copy it to each computer and run it
+3. When the server is running, the wizard offers an optional **Telegram bot** page: paste the token of a bot made with
+   @BotFather to send files to people on Telegram, or leave it empty to skip (the install is never affected, and you can
+   set it up later). The option that lets people ask the bot for files is off unless you tick it: files then pass through
+   Telegram's cloud. Video 5 shows it.
+4. Save the web address and the passwords the last page shows: they are not shown again.
+5. For the employees' computers, setup creates `C:\AIBox\AIBox-Agent-Setup.exe`. Copy it to each computer and run it
    there. It carries a key to your server, so do not share it publicly.
 
 ## Check the download
