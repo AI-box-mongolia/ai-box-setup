@@ -15,7 +15,8 @@ English: [README.md](README.md)
   2. [Ажилтны компьютерт суулгах, файл хуваалцах](videos/AI-Box-guide-2-employee-computer.mp4) (3:08)
   3. [Windows анхааруулбал](videos/AI-Box-guide-3-windows-warnings.mp4) (2:47)
   4. [AI Box вэб хуудсыг ашиглах](videos/AI-Box-guide-4-web-page.mp4) (3:47)
-  5. [Telegram bot тохируулах (заавал биш)](videos/AI-Box-guide-5-telegram.mp4) (2:12)
+  5. [Telegram bot тохируулах (заавал биш)](videos/AI-Box-guide-5-telegram.mp4) (2:43)
+  6. [Серверийг шинэчлэх: суулгагчийг дахин ажиллуулах](videos/AI-Box-guide-6-rerun-installer.mp4) (1:22)
 
 ## Сервер болох компьютерт хэрэгтэй
 

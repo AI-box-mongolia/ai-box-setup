@@ -15,7 +15,8 @@ setting it up and using it.
   2. [Installing on an employee's computer, and sharing a file](videos/AI-Box-guide-2-employee-computer.mp4) (3:08)
   3. [What to do when Windows warns](videos/AI-Box-guide-3-windows-warnings.mp4) (2:47)
   4. [Using the AI Box web page](videos/AI-Box-guide-4-web-page.mp4) (3:47)
-  5. [Setting up the Telegram bot (optional)](videos/AI-Box-guide-5-telegram.mp4) (2:12)
+  5. [Setting up the Telegram bot (optional)](videos/AI-Box-guide-5-telegram.mp4) (2:43)
+  6. [Updating the server: running the installer again](videos/AI-Box-guide-6-rerun-installer.mp4) (1:22)
 
 ## What the server computer needs
 
